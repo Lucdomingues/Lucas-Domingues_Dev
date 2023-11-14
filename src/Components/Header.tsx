@@ -1,9 +1,9 @@
+// @ts-nocheck
+
+
 import {useContext} from 'react';
-import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 import ThemeContext from '../context/ThemeContext';
 import logo from '../assets/triangle_logo.png';
-import menu from '../assets/menu.png';
-import menuClosed from "../assets/icons8-x-30.png"
 
 export default function Header() {
   const {menuSelect, setMenuSelect} = useContext(ThemeContext);
