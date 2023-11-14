@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useMemo, useState} from 'react';
 import ThemeContext from './ThemeContext';
 
 type ThemeProviderType = {
@@ -6,8 +6,18 @@ type ThemeProviderType = {
 };
 
 export default function ThemeProvider({ children }: ThemeProviderType) {
+  const [menuSelect, setMenuSelect] = useState<boolean>(true);
+
+  const data = useMemo(
+    () => ({ menuSelect,
+       setMenuSelect,
+  }),
+   [
+    menuSelect,
+     setMenuSelect
+    ]);
   return (
-    <ThemeContext.Provider value={ { states: 'exemplo' } }>
+    <ThemeContext.Provider value={ data }>
       { children }
     </ThemeContext.Provider>
   );

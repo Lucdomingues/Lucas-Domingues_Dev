@@ -1,9 +1,5 @@
 import { createContext } from 'react';
 
-type ThemeContextType = {
-  states: string,
-};
-
-const ThemeContext = createContext({} as ThemeContextType);
+const ThemeContext = createContext({});
 
 export default ThemeContext;
