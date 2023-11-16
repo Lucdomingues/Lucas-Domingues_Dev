@@ -1,17 +1,17 @@
 // @ts-nocheck
 
 
-import {Route, Routes} from 'react-router-dom';
-import Initial from './Pages/Initial';
-import Resume from './Pages/Resume';
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
+import Resume from './Pages/Resume';
+import Initial from './Pages/Initial';
 
-function App() {
+function App() {  
   return (
     <main className='main'>
       <Routes>
-        <Route exact path='/' element={<Initial />}/>
-        <Route exact path='/resume' element={<Resume />}/>
+        <Route path='/' element={<Initial />} />
+        <Route path='resume' element={<Resume />} />
       </Routes>
     </main>
   );

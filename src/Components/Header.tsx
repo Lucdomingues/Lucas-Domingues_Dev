@@ -1,4 +1,5 @@
 // @ts-nocheck
+import { useNavigate } from 'react-router-dom';
 
 
 import {useContext} from 'react';
@@ -7,6 +8,7 @@ import logo from '../assets/triangle_logo.png';
 
 export default function Header() {
   const {menuSelect, setMenuSelect} = useContext(ThemeContext);
+  const navigation = useNavigate();
 
   const menuToggle = (e) => {
     const menuOpen = document.getElementById('open');
@@ -30,7 +32,9 @@ export default function Header() {
     <header id="header">
       <section className="flex justify-between container mx-auto mt-8 max-md:px-6 px-6 content-center max-md:justify-center text-white fadeIn">
         <article className="child__header animate-bounce max-md:hidden" id="logo__header">
-        <img src={logo} alt="logo-header"/>
+          <button onClick={() => navigation('/')}>
+          <img src={logo} alt="logo-header"/>
+          </button>
         </article>
         <article className="child__header flex justify-center" id="menu">
         <button onClick={ menuToggle }><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">

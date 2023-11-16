@@ -3,6 +3,7 @@
 html{
     scroll-behavior: smooth;
 }
+
 html::-webkit-scrollbar-thumb {
     background-color: #888;
     border-radius: 20px;
@@ -28,6 +29,12 @@ body {
     animation: blinker 1s linear infinite;
 }
 
+.screen{
+    height: 90vh;
+}
+.screen__personalization{
+    height: 90vh;
+}
 @keyframes blinker {
     50% {
         opacity: 0;
@@ -43,31 +50,31 @@ body {
 }
 
 /* Animation observer hiddens Elements */
-.hidden__manual{
+/* .hidden__manual{
     opacity: 0;
     filter: blur(5px);
     transform: translateX(-100%);
     transition: all 2s;
-}
+} */
 
-.show{
+/* .show{
 opacity: 1;
 filter: blur(0);
 transform: translateX(0);
-}
+} */
 
-.hidden__manualY{
+/* .hidden__manualY{
     opacity: 0;
     filter: blur(5px);
     transform: translateY(-100%);
     transition: all 2s;
-}
+} */
 
-.showY{
+/* .showY{
 opacity: 1;
 filter: blur(0);
 transform: translateY(0);
-}
+} */
 
 .buttons{
     display: flex;
@@ -95,5 +102,22 @@ transform: translateY(0);
     from{ opacity: 0;
     }
     to{ opacity: 1; 
+    }
+}
+
+/* Responsive */
+
+@media (max-width: 750px){
+    .screen{
+        height: 100vh;
+    }
+    .screen__personalization{
+        height: 180vh;
+    }
+}
+
+@media (max-width: 380px){
+    .screen__personalization{
+        height: 260vh;
     }
 }
