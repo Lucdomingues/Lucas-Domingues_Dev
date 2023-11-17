@@ -32,14 +32,14 @@ export default function Presentation() {
     <div className="max-md:mt-10 h-screen max-md:grid-flow-row max-md:px-6 px-6 max-lg:grid-flow-row max-md:auto-cols-auto grid-flow-col auto-cols-max grid content-center justify-between">
     <article className="text-white mr-10 max-md:mr-0">
       <div className=''>
-      <h1 className="text-6xl max-md:text-5xl fadeIn">Hello</h1>
-        <h2 className="text-4xl max-md:text-3xl fadeIn">I am Lucas Domingues</h2>
-        <p className="text-4xl max-md:text-3xl max-md:mt-3 leading-loose fadeIn">I develop back end and front end <span className="blink text-3xl">|</span></p>
+      <h1 className="text-6xl max-md:text-5xl fadeIn">Olá</h1>
+        <h2 className="text-4xl max-md:text-3xl fadeIn">Eu sou Lucas Domingues</h2>
+        <p className="text-4xl max-md:text-3xl max-md:mt-3 leading-loose fadeIn">Desenvolvo back-end e front-end <span className="blink text-3xl">|</span></p>
       </div>
 
         <div className="buttons">
-          <button onClick={()=> navegation("/resume")} className="px-8 py-3 mt-1 max-md:mt-5 border rounded font-semibold text-lg button hidden__manual">Resume</button>
-          <button className="px-8 py-3 mt-1 ml-4 bg-indigo-700 max-md:mt-5 rounded text-lg button hidden__manual">Let's Talk</button>
+          <button onClick={()=> navegation("/resume")} className="px-8 py-3 mt-1 max-md:mt-5 border rounded font-semibold text-lg button hidden__manual">Resumo</button>
+          <button className="px-8 py-3 mt-1 ml-4 bg-indigo-700 max-md:mt-5 rounded text-lg button hidden__manual">Me chame!</button>
         </div>
     </article>
     <article className="ml-10 max-md:ml-0">

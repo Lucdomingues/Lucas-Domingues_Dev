@@ -1,8 +1,11 @@
 // @ts-nocheck
 
+import { useNavigate } from "react-router-dom";
 import UpIcon from "./UpIcon";
 
 export default function About() {
+  const navegation = useNavigate();
+  
   const cardsAbouts = [
     {
       id: 1,
@@ -12,22 +15,27 @@ export default function About() {
     {
       id: 2,
       description:
-        "Como desenvolvedor estou em busca de um ambiente de trabalho focado no desenvolvimento e progresso!",
+        `Aplicar minha formação como
+        desenvolvedor para o aperfeiçoamento
+        de minhas “HardSkills” e “SoftSkills”,
+        visando a senioridade!`,
     },
     {
       id: 3,
       description:
-        "Como desenvolvedor estou em busca de um ambiente de trabalho focado no desenvolvimento e progresso!",
+        `Aprimorar minhas noções de liderança e
+        trabalho em equipe, projetando uma
+        futura posição gerencial`,
     },
   ];
 
   return (
-    <div className="px-5">
+    <div className="">
       <UpIcon />
-      <div className="flex screen justify-center flex-col items-center text-center">
-        <h1 className="text-8xl text-white font-medium">Hi There,</h1>
+      <div className="flex screen justify-center flex-col items-center text-center mx-5">
+        <h1 className="text-8xl text-white font-medium">Olá,</h1>
         <p className="text-4xl text-white font-extralight">
-          Here to share a bit about myself!
+        Deixe compartilhar um pouco sobre mim!
         </p>
         <a href="#scrolling-one">
           <svg
@@ -48,16 +56,16 @@ export default function About() {
       </div>
 
       <div
-        className="flex screen justify-center flex-col items-center text-center"
+        className="flex screen justify-center flex-col items-center text-center bg__sections px-5"
         id="scrolling-one"
       >
         <h2 className="text-6xl text-white mb-7 font-medium">
-          My name is Lucas Domingues!
+          Meu nome é Lucas Domingues!
         </h2>
         <p className="text-3xl text-white font-extralight">
-          I have experience in UX/UI on the Front End and in Back End,
-          <br /> involving the creation and manipulation of APIs, servers, and
-          databases!
+        Eu tenho experiência em UX/UI no Front End e no Back End,
+<br /> envolvendo a criação e manipulação de APIs, servidores e
+bancos de dados!
         </p>
         <a href="#scrolling-two">
           <svg
@@ -78,7 +86,7 @@ export default function About() {
       </div>
 
       <div
-        className="flex screen__personalization justify-center flex-col items-center text-center"
+        className="flex screen__personalization justify-center flex-col items-center text-center mx-5"
         id="scrolling-two"
       >
         <h2 className="text-6xl text-white font-medium mb-16">Meu Foco!</h2>
@@ -93,8 +101,8 @@ export default function About() {
           </ul>
         </div>
         <div className="text-white my-20">
-          <button onClick={()=> navegation("/resume")} className="px-8 py-3 mt-1 max-md:mt-5 border rounded font-semibold text-lg">My Tech's</button>
-          <button className="px-8 py-3 mt-1 ml-4 bg-indigo-700 max-md:mt-5 rounded text-lg">My Project's</button>
+          <button className="px-8 py-3 mt-1 max-md:mt-5 border rounded font-semibold text-lg">Minhas Tech's</button>
+          <button onClick={()=> navegation("/projects")} className="px-8 py-3 mt-1 ml-4 bg-indigo-700 max-md:mt-5 rounded text-lg">Meus Projetos</button>
         </div>
       </div>
     </div>

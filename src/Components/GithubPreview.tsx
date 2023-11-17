@@ -25,7 +25,7 @@ export default function GithubPreview() {
   return (
     <div className="container md:container max-md:mt-16 ml-8 max-md:ml-0">
       <div className="flex flex-col">
-        <h1 className="text-white mb-7 text-5xl fadeIn">My Projects</h1>
+        <h1 className="text-white mb-7 text-5xl fadeIn">Meus Projetos</h1>
         <ul>
           {arrGit.map((element) => {
             return (
