@@ -45,8 +45,8 @@ export default function Header() {
         <div className='hidden fixed top-16 bg-white text-black rounded justify-center fadeIn' id='open'>
           <nav className='p-8'>
             <ul>
-              <li className='mb-4 cursor-pointer' onClick={()=> navigation('/resume')}><span className='font-medium'>Resumo</span><br /><span className='font-extralight'>Deixe compartilhar um pouco sobre mim!</span></li>
-              <li className='mb-4'><span className='font-medium'>Analitycs</span><br /><span className='font-extralight'>Get a bestearn understening</span></li>
+              <li className='mb-4 cursor-pointer' onClick={()=> navigation('/resumo')}><span className='font-medium'>Resumo</span><br /><span className='font-extralight'>Deixe compartilhar um pouco sobre mim!</span></li>
+              <li className='mb-4 cursor-pointer' onClick={()=> navigation('/contato')}><span className='font-medium'>Contate-me</span><br /><span className='font-extralight'>Vamos conversar!</span></li>
             </ul>
           </nav>
         </div>

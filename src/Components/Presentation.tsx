@@ -29,7 +29,7 @@ export default function Presentation() {
 // });
   
   return (
-    <div className="max-md:mt-10 h-screen max-md:grid-flow-row max-md:px-6 px-6 max-lg:grid-flow-row max-md:auto-cols-auto grid-flow-col auto-cols-max grid content-center justify-between">
+    <div className=" max-md:mt-10 screen-10 max-md:grid-flow-row max-md:px-6 px-6 max-lg:grid-flow-row max-md:auto-cols-auto grid-flow-col auto-cols-max grid content-center justify-between">
     <article className="text-white mr-10 max-md:mr-0">
       <div className=''>
       <h1 className="text-6xl max-md:text-5xl fadeIn">Olá</h1>
