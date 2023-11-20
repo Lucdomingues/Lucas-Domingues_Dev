@@ -38,8 +38,8 @@ export default function Presentation() {
       </div>
 
         <div className="buttons">
-          <button onClick={()=> navegation("/resume")} className="px-8 py-3 mt-1 max-md:mt-5 border rounded font-semibold text-lg button hidden__manual">Resumo</button>
-          <button className="px-8 py-3 mt-1 ml-4 bg-indigo-700 max-md:mt-5 rounded text-lg button hidden__manual">Me chame!</button>
+          <button onClick={()=> navegation("/resumo")} className="px-8 py-3 mt-1 max-md:mt-5 border rounded font-semibold text-lg button hidden__manual">Resumo</button>
+          <button onClick={()=> navegation("/contato")} className="px-8 py-3 mt-1 ml-4 bg-indigo-700 max-md:mt-5 rounded text-lg button hidden__manual">Me chame!</button>
         </div>
     </article>
     <article className="ml-10 max-md:ml-0">

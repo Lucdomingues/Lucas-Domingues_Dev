@@ -102,7 +102,6 @@ bancos de dados!
         </div>
         <div className="text-white my-20">
           <button className="px-8 py-3 mt-1 max-md:mt-5 border rounded font-semibold text-lg">Minhas Tech's</button>
-          <button onClick={()=> navegation("/projects")} className="px-8 py-3 mt-1 ml-4 bg-indigo-700 max-md:mt-5 rounded text-lg">Meus Projetos</button>
         </div>
       </div>
     </div>

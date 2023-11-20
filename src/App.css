@@ -39,6 +39,9 @@ body {
 .screen{
     height: 100vh;
 }
+.screen-10{
+    height: 90vh;
+}
 .screen__personalization{
     height: 100vh;
 }

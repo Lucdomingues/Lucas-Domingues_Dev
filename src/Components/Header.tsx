@@ -46,7 +46,6 @@ export default function Header() {
           <nav className='p-8'>
             <ul>
               <li className='mb-4 cursor-pointer' onClick={()=> navigation('/resume')}><span className='font-medium'>Resumo</span><br /><span className='font-extralight'>Deixe compartilhar um pouco sobre mim!</span></li>
-              <li className='mb-4 cursor-pointer' onClick={()=> navigation('/projects')}><span className='font-medium'>Meus Projetos</span><br /><span className='font-extralight'>Get a bestearn understening</span></li>
               <li className='mb-4'><span className='font-medium'>Analitycs</span><br /><span className='font-extralight'>Get a bestearn understening</span></li>
             </ul>
           </nav>
