@@ -46,6 +46,7 @@ export default function Header() {
           <nav className='p-8'>
             <ul>
               <li className='mb-4 cursor-pointer' onClick={()=> navigation('/resumo')}><span className='font-medium'>Resumo</span><br /><span className='font-extralight'>Deixe compartilhar um pouco sobre mim!</span></li>
+              <li className='mb-4 cursor-pointer' onClick={()=> navigation('/techs')}><span className='font-medium'>Techs</span><br /><span className='font-extralight'>Caixa de ferramentas</span></li>
               <li className='mb-4 cursor-pointer' onClick={()=> navigation('/contato')}><span className='font-medium'>Contate-me</span><br /><span className='font-extralight'>Vamos conversar!</span></li>
             </ul>
           </nav>
