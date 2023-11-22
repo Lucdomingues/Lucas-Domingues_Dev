@@ -59,13 +59,13 @@ export default function About() {
         className="flex screen justify-center flex-col items-center text-center bg__sections px-5"
         id="scrolling-one"
       >
-        <h2 className="text-6xl text-white mb-7 font-medium">
+        <h2 className="text-6xl max-md:text-4xl text-white mb-7 font-medium">
           Meu nome é Lucas Domingues!
         </h2>
-        <p className="text-3xl text-white font-extralight">
-        Eu tenho experiência em UX/UI no Front End e no Back End,
-<br /> envolvendo a criação e manipulação de APIs, servidores e
-bancos de dados!
+        <p className="text-3xl max-md:text-2xl text-white font-extralight">
+        Eu tenho experiência em desenvolvimento Front End, utilizando de ferramentas poderosas como <strong className="font-bold">React.js</strong> e seus frameworks!<br />
+        E no Back End, envolvendo a <strong className="font-bold">criação e manipulação de APIs, servidores e
+bancos de dados!</strong> Com uma arquitetura de software bem planejada e ténicas de <strong className="font-bold">MicrosServiços e Clean Code!</strong>
         </p>
         <a href="#scrolling-two">
           <svg

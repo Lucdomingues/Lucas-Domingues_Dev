@@ -7,7 +7,7 @@ export default function ContactMe() {
   return (
     <div>
       {/* -----------------------   Engloba All ------------------------------------ */}
-      <div className="flex screen-10 max-md:flex-col-reverse justify-around max-sm:mt-20 max-md:mt-10 max-md:mx-7 mx-7 items-center">
+      <div className="flex screen-10 max-md:mb-20 max-md:flex-col-reverse justify-around max-sm:mt-20 max-md:mt-10 max-md:mx-7 mx-7 items-center">
         {/* -----------------------   Engloba Content Left ------------------------------------ */}
         <div>
           {/* -----------------------   Engloba Text ------------------------------------ */}
