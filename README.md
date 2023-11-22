@@ -69,7 +69,7 @@
 
 A aplicação foi criada utilizando **React.js** com o auxílio da ferramenta **Vite** para gerar a estrutura e melhor qualidade na hora do desenvolvimento! Para a estilização o framework **TailwindCSS** pode nos ajudar para agilizar o processo e qualidade da responsividade! Dentro de React.js foi aproveitada as ferramentas que o próprio oferece, como a estrutura de **contexto** para a manipulação do estado e **React Rounter Dom** para o roteamento das páginas e componentes, em sí, o projeto foi desmembrado em vários componentes, abordando assim, a **arquitetura de MicrosServiços**!
 
-O mapa do portfólio é simples o objetivo era esse simplicidade, ele conta com uma **Página Inícial, um Resumo, uma área com as minhas técnologias, um Header e uma Página de Contato**.
+O mapa do portfólio é simples e objetivo, ele conta com uma **Página Inícial, um Resumo, uma área com as minhas técnologias, um Header e uma Página de Contato**.
 
 Usando **Vercel** foi feito o deploy da aplicação!
 
