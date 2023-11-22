@@ -1,6 +1,6 @@
 export default function NavTech() {
   return (
-    <div className="flex flex-col justify-center items-center screen mx-7">
+    <div id="nav" className="flex flex-col justify-center items-center screen mx-7">
         <div>
         <h1 className="text-white text-center font-bold text-5xl max-md:mb-5 max-md:text-3xl max-[750px]:m-0 m-14">Minhas experiências e conhecimentos adiquiridos por meio de estudos e projetos voltados para a metodologia ágil</h1>
         </div>
