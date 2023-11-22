@@ -1,4 +1,5 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
+
 <a name="readme-top"></a>
 <!--
 *** Thanks for checking out the Best-README-Template. If you have a suggestion
@@ -66,17 +67,11 @@
 <!-- SOBRE O PROJETO -->
 ## Sobre o projeto
 
-Neste projeto você irá ver o LucTunes, uma aplicação capaz de reproduzir músicas das mais variadas bandas e artistas, criar uma lista de músicas favoritas e editar o perfil da pessoa usuária logada. Uma aplicação baseada no front-end escrita com JavaScript, utilizando a biblioteca React, construída por componentes e testes. Sobre o CSS, utilizei a ferramenta Bootstrap para me auxiliar na construção do estilo. Essa aplicação é capaz de:
+A aplicação foi criada utilizando **React.js** com o auxílio da ferramenta **Vite** para gerar a estrutura e melhor qualidade na hora do desenvolvimento! Para a estilização o framework **TailwindCSS** pode nos ajudar para agilizar o processo e qualidade da responsividade! Dentro de React.js foi aproveitada as ferramentas que o próprio oferece como a estrutura de **contexto** para a manipulação do estado e **React Rounter Dom** para o roteamento das páginas e componentes, em sí, o projeto foi desmembrado em vários componentes, abordando assim, a **arquitetura de MicrosServiços**!
 
-- [x] Fazer login
-- [x] Pesquisar por uma banda ou artista
-- [x] Listar os álbuns disponíveis dessa banda ou artista
-- [x] Visualizar as músicas de um álbum selecionado
-- [x] Reproduzir uma prévia das músicas deste álbum
-- [x] Favoritar e desfavoritar músicas
-- [x] Ver a lista de músicas favoritas
-- [x] Ver o perfil da pessoa logada
-- [x] Editar o perfil da pessoa logada
+O mapa do portfólio é simples o objetivo era esse simplicidade, ele conta com uma **Página Inícial, um Resumo, uma área com as minhas técnologias, um Header e uma Página de Contato**.
+
+Usando **Vercel** foi feito o deploy da aplicação!
 
 
 <p align="right">(<a href="#readme-top">de volta para o topo</a>)</p>
@@ -88,7 +83,7 @@ Neste projeto você irá ver o LucTunes, uma aplicação capaz de reproduzir mú
 * <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="java-script" width="50" height="50"/>
 * <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" alt="css" width="50" height="50"/>
 * <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" alt="html" width="50" height="50"/>
-* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="50" height="50"/>
+* <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg" alt="tailwind" width="50" height="50"/>
 <p align="right">(<a href="#readme-top">de volta para o topo</a>)</p>
 
 
