@@ -71,7 +71,7 @@ A aplicação foi criada utilizando **React.js** com o auxílio da ferramenta **
 
 O mapa do portfólio é simples e objetivo, ele conta com uma **Página Inícial, um Resumo, uma área com as minhas técnologias, um Header e uma Página de Contato**.
 
-Usando **Vercel** foi feito o deploy da aplicação!
+Usando **Vercel** foi feito o deploy da aplicação! Que pode ser acessada através de: https://lucas-domingues-dev.vercel.app/
 
 
 <p align="right">(<a href="#readme-top">de volta para o topo</a>)</p>
