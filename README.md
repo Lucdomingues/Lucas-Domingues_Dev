@@ -27,7 +27,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/Lucdomingues/LucTunes/edit/main/README.md">
-    <img src="https://github.com/Lucdomingues/Lucas-Domingues_Dev/blob/master/src/assets/Captura%20de%20tela%20de%202023-11-22%2018-18-05.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/Lucdomingues/Lucas-Domingues_Dev/blob/master/src/assets/Captura%20de%20tela%20de%202023-11-22%2018-18-05.png" alt="Logo" width="auto" height="auto">
   </a>
 
 <h3 align="center">Portfólio - Lucas Domingues</h3>
